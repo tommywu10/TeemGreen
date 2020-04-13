@@ -187,6 +187,11 @@ header a:hover {
   -ms-transform: translate(-50%, -50%);
 }
 /* -------------CONTACT ------------------- */
+.contact {
+    display: grid;
+
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
