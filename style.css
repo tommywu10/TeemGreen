@@ -201,12 +201,17 @@ header a:hover {
     flex-direction: column;
     border-style: solid;
     border-color: royalblue;
+}
 
+.phone, .email, i, p, h2 {
+    margin: 3px;
 }
 
 .phone {
     padding: 20px;
 }
+
+
 
 
 input[type=text], select {
@@ -239,6 +244,15 @@ input[type=submit] {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+.join {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
 
 /*--------------------------FOOTER------------------------*/
 footer {
