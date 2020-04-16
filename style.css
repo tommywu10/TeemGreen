@@ -69,12 +69,47 @@ header a:hover {
 - add paragraphs
 */
 
-#showcase {
-
+.slideshow {
+    position: relative;
 }
 
-#showcase-text {
-    
+.landscape-img {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#showcase-text h1 {
+    margin: 0;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+
 }
 /* ABOUT US 
 
