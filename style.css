@@ -100,6 +100,7 @@ header a:hover {
 - better font for body
 - underline for styling 
  */
+
 .aboutus-container h1 {
     text-align: center;
     text-transform: uppercase;
@@ -112,6 +113,8 @@ header a:hover {
 .aboutus-container p {
     margin: 50px;
     margin-top: -10px;
+    border-style: solid;
+    padding: 20px;
 }
 
 .aboutus-container span {
