@@ -60,7 +60,7 @@ header nav {
 
 header a:hover {
     color:#05386B; 
-    background-color:#5CDB95;
+    background-color:rgb(148, 161, 154);
 }
 
 
@@ -225,6 +225,7 @@ header a:hover {
     justify-content: space-evenly;
     grid-template-columns: 400px 400px;
     margin: 20px;
+    background: url(landscape2.jpg);
 }
 .phone, .email {
     background-color:#5CDB95;
@@ -283,10 +284,30 @@ input[type=submit] {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .join span {
     color: #4CAF50;
+}
+
+.social-media-contact {
+    padding: 10px;
+    margin: 10px;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media-contact a {
+    text-decoration: none;
+}
+.social-media-contact a:visited {
+    color: #05386B;
+}
+
+.social-media-contact a:hover {
+    color: #5CDB95;
 }
 
 /*--------------------------FOOTER------------------------*/
