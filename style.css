@@ -135,7 +135,8 @@ header a:hover {
 }
 
 .aboutus-container span {
-    color: green;
+    color:#4CAF50;
+    ;
 }
 .aboutus-flex {
     display: flex;
@@ -163,21 +164,24 @@ header a:hover {
 
 - make text smoothly transition in overlay */
 
+
+
 .services-container {
     background: url(landscape4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    height: 600px;
 }
 
-
-.services-container h1 {
+.services-heading {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 0;
-    padding-top: 20px;
-    color: whitesmoke;
+    padding: 3px;
+    background-color: rgba(192,192,192,0.8);
+    width: 300px;
+    text-transform: uppercase;
 }
 
 .services-container h2 {
@@ -192,6 +196,9 @@ header a:hover {
     grid-gap: 40px;
     padding: 30px;
     position: relative;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .services-grid img {
@@ -236,29 +243,29 @@ header a:hover {
 /* -------------CONTACT ------------------- */
 .contact {
     display: grid;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 400px 400px;
     margin: 20px;
     background: url(landscape2.jpg);
+    height: 1000px;
+    grid-gap: 15px;
+    font-family: 'Quicksand', sans-serif;
 }
 .phone, .email {
-    background-color:#5CDB95;
+    background-color:rgba(192,192,192,0.8);
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: royalblue;
+    width: 80%;
+    height: 150px;
+
 }
 
 .phone, .email, i, p, h2 {
     margin: 3px;
 }
-
-.phone {
-    padding: 20px;
-}
-
 
 input[type=text], select {
     width: 100%;
@@ -289,6 +296,7 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    height: 400px;
   }
 
 .join {
@@ -296,7 +304,6 @@ input[type=submit] {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
     background-color: rgba(192,192,192,0.8);
 }
 
@@ -304,12 +311,16 @@ input[type=submit] {
     color: #4CAF50;
 }
 
+.join p {
+    font-size: large;
+}
+
 .social-media-contact {
     padding: 10px;
-    margin: 10px;
     font-size: 90px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
+
 }
 
 .social-media-contact a {
@@ -323,6 +334,9 @@ input[type=submit] {
     color: #5CDB95;
 }
 
+#phone-icon, #email-icon {
+    color: #4CAF50;
+}
 /*--------------------------FOOTER------------------------*/
 footer {
     padding: 20px;
