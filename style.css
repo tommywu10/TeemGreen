@@ -176,18 +176,21 @@ header a:hover {
 
 .services-heading {
     text-align: center;
-    font-size: 18px;
     margin-top: 0;
     padding: 3px;
     background-color: rgba(192,192,192,0.8);
     width: 300px;
     text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
 }
 
 .services-container h2 {
     font-size: 20px;
     background-color: rgba(14, 13, 13, 0.8);
     color: whitesmoke;
+    font-family: 'Karla', sans-serif;
 }
 
 .services-grid {
@@ -240,13 +243,16 @@ header a:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.text {
+    font-family: 'Karla', sans-serif;
+}
 /* -------------CONTACT ------------------- */
 .contact {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 400px 400px;
-    margin: 20px;
     background: url(landscape2.jpg);
     height: 1000px;
     grid-gap: 15px;
@@ -313,6 +319,7 @@ input[type=submit] {
 
 .join p {
     font-size: large;
+    font-weight: bolder;
 }
 
 .social-media-contact {
