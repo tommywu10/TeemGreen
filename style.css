@@ -70,29 +70,25 @@ header a:hover {
 - add paragraphs
 */
 
-.showcase {
-    height: 700px;
-    margin: 0;
+.s1, .s2, .s3 {
+    box-sizing: border-box;
 }
 
-.landscape-container {
-    background-image: url(landscape.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+.s1 {
+    background-image: url(./landscape.jpg);
     background-size: cover;
-    margin: 0;
-    position: relative;
+    background-repeat: no-repeat;
 }
 
-#showcase-text h1 {
-    margin: 0;
-    background: rgb(0, 0, 0);
-    background: rgb(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
+.s2 {
+    background-image: url(./landscape2.jpg);
+    background-size: cover;
+}
+
+.s3 {
+    background-image: url(./landscape3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* ABOUT US 
 
